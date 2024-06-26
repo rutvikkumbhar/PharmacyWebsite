@@ -1,0 +1,85 @@
+﻿.sub-container2{
+    background-image:url("/images/mainbackground1.jpg");
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+.sub-container2-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    overflow: hidden;
+    width: 768px;
+    max-width: 100%;
+    min-height: 480px;
+}
+
+.info-container1 , .info-container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    background-color: #512da8;
+    border-radius: 0 120px 100px 0;
+    width: 50%;
+    height: 100%;
+}
+
+.info-container2 {
+    border-radius: 120px 0 0 100px ;
+}
+
+.btnsignup , .btnsignin , .btnsearch{
+    background-color: #512da8;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 45px;
+    border: 1px solid transparent;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.btnsignup {
+    margin-bottom: 40px;
+}
+
+
+.info-container1 .btnsignin , .info-container2 .btnsignup {
+    border: solid 1px white;
+}
+
+.form-container1 , .form-container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+}
+
+.txtname , .txtemail , .txtpassword{
+    background-color: #eee;
+    border: none;
+    margin: 20px 0;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 8px;
+    width: 60%;
+    outline: none;
+    cursor:pointer;
+}

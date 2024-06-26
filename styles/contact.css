@@ -1,0 +1,107 @@
+﻿.sub-container2{
+    background-image:url("/images/mainbackground1.jpg");
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+}       
+.sub-container2-1{
+    display: flex;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    position: relative;
+    overflow: hidden;
+    width: 780px;
+    max-width: 100%;
+    min-height: 480px;
+}
+.info-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    width: 50%;
+    color: #fff;
+    background-color: #01d28e;
+}
+.form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+}
+.locationlogo{
+    height: 31px;
+    width: 31px;
+    margin-right:10px;
+    border:solid 1px white;
+    border-radius:15px;
+    padding:2px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+}
+.phonelogo{
+    height: 31px;
+    width: 31px;
+    margin-right:10px;
+    border:solid 1px white;
+    border-radius:15px;
+    padding:4px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+}
+.emaillogo{
+    height: 31px;
+    width: 31px;
+    margin-right:10px;
+    border:solid 1px white;
+    border-radius:15px;
+    padding:1px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+}
+.globelogo{
+    height: 31px;
+    width: 31px;
+    margin-right:10px;
+    border:solid 1px white;
+    border-radius:15px;
+    padding:4px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+}
+.location , .phone , .email , .globe{
+    display: flex;
+    align-items:center;
+}
+.txt{
+    background-color: #eee;
+    border: none;
+    margin: 15px 0;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 8px;
+    width: 60%;
+    outline: none;
+    cursor:pointer;
+}
+
+.btnsubmit{
+    background-color: #01d28e;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    cursor: pointer;
+}
